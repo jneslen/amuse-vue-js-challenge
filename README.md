@@ -11,7 +11,7 @@ Do not spend more than 2-3 hours on the challenge.
     - Category page with product cards with basic product details such as image, name, brand, price
     - Category filter 
   - Nice to have
-    - Implement a simple age gate model to confirm that the customer is over 21 years of age 
+    - Implement a simple age gate modal to confirm that the customer is over 21 years of age 
 - Request review from `kenndavila-amuse` and `brandonalmeda` Github users on the finished work 
 
 ## Notes
