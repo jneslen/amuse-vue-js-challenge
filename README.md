@@ -6,13 +6,13 @@ Do not spend more than 2-3 hours on the challenge.
 
 ## Requirements
 - Please fork the repository into your own GitHub account 
-- Build a VueJS app on the feature branch
+- Build a VueJS app on a feature branch
   - The app should have:
     - Category page with product cards with basic product details such as image, name, brand, price
     - Category filter 
   - Nice to have
     - Implement a simple age gate modal to confirm that the customer is over 21 years of age 
-- Request review from `kenndavila-amuse` and `brandonalmeda` Github users on the finished work 
+- Request review from `kenndavila-amuse` and Github users on the finished work 
 
 ## Notes
 - A sample JSON API response payload is available in this repo for your reference.
