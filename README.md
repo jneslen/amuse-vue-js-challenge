@@ -1,28 +1,25 @@
 # VueJS Code Challenge
-## Overview
-Amuse is an e-commerce company targeting the cannabis industry in Los Angeles. 
 
-Do not spend more than 2-3 hours on the challenge.
+## About Amuse
+Amuse is California's fastest-growing Cannabis delivery service, on a mission to provide the most convenient cannabis buying and delivery experience. We are a hard-working, passionate group of professionals from a wide variety of backgrounds aiming to change the perception of cannabis through education and access.
 
-## Requirements
+## Challenge Overview
+Please do not spend more than 2-3 hours on the challenge. 
+
 - Please fork the repository into your own GitHub account 
 - Build a VueJS app on a feature branch
   - The app should have:
-    - Category page with product cards with basic product details such as image, name, brand, price
-    - Category filter 
+    - A sategory page with product cards showing basic product details such as image, name, brand, price
+    - A category filter 
   - Nice to have
     - Implement a simple age gate modal to confirm that the customer is over 21 years of age 
-- Request review from `kenndavila-amuse` and Github users on the finished work 
+- Request review from `brandonalmeda` and `denlight` Github users on the finished work
 
 ## Notes
-- A sample JSON API response payload is available in this repo for your reference.
+- A JSON dump of the Amuse product catalog is included in the repo
 - All image urls should prefixed with https://res.cloudinary.com/amusenow/w_auto,c_scale/
+  - More information about Cloudinary transformations is available here https://cloudinary.com/documentation/image_transformations
 - All product urls should be prefixed with https://amuse.com
-- More information about Cloudinary transformations is available here https://cloudinary.com/documentation/image_transformations
 
-Your implementation will be judged on design, using VueJS best practices and 
-implementation of the features listed above.
-
-Note: This challenge is intentionally open-ended. Feel free to get creative and 
-put your spin on an e-commerce experience.
+Note: This challenge is intentionally open-ended. Feel free to get creative and put your spin on an e-commerce experience.
 
