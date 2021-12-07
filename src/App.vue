@@ -21,14 +21,15 @@ export default {
   },
   data() {
     return {
-      modalDismissed: false
+      modalDismissed: (this.$cookie.get('modalDismissed') === "true")
     }
   },
   methods: {
     ageConfirm () {
       console.log('got here')
       this.modalDismissed = true
-      // Would like to add cookie to keep the value of confirmation
+      // Set Cookie so we don't have the popup again
+      this.$cookie.set('modalDismissed', true)
     }
   }
 }
