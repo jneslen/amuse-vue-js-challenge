@@ -1,6 +1,6 @@
 <template>
-  <div id="app" class="container">
-    <img alt="Vue logo" src="./assets/logo.png">
+  <div id="app">
+    <img alt="Vue logo" width="200px" src="./assets/amuse-logo.svg">
     <Amuse msg="Amuse"/>
   </div>
 </template>
@@ -23,6 +23,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+.page-item.active .page-link,
+.btn-primary {
+  background-color: #F73D99 !important;
+  border-color: #F73D99 !important;
 }
 </style>
