@@ -18,14 +18,12 @@
           <product-card :product="product"></product-card>
         </div>
       </div>
-    <modal :header="'Title'"></modal>
   </div>
 </template>
 
 <script>
 import CategorySelect from "./CategorySelect.vue"
 import ProductCard from "./ProductCard.vue"
-import Modal from "./Modal.vue"
 import filter from "lodash/filter"
 import chunk from "lodash/chunk"
 
@@ -35,8 +33,7 @@ export default {
   name: 'Amuse',
   components: {
     'category-select': CategorySelect,
-    'product-card': ProductCard,
-    'modal': Modal
+    'product-card': ProductCard
   },
   data() {
     return {
@@ -44,7 +41,7 @@ export default {
       categories: [],
       currentCategory: 'Flower',
       perPage: 12,
-      currentPage: 1
+      currentPage: 1,
     }
   },
   created() {
